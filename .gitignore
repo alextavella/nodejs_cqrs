@@ -1,0 +1,13 @@
+.DS_Store
+
+# Modules
+node_modules/
+
+# Others
+*.sh
+
+# Build
+dist/
+
+# Environment
+.env

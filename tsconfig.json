@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["ES6"],
+    "strict": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "isolatedModules": true,
+    "paths": {
+      "@client/*": ["./packages/client/src/*"],
+      "@main/*": ["./packages/main/src/*"],
+      "@shared/*": ["./packages/shared/src/*"]
+    }
+  }
+}

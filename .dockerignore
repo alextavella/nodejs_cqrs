@@ -1,0 +1,15 @@
+/.github
+/.vscode
+
+/config
+/rest
+
+.env*
+.editor*
+.eslint*
+.git*
+.prettier*
+.jest*
+
+nx*
+gcloud*

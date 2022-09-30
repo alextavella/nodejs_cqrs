@@ -1,0 +1,18 @@
+{
+  "name": "@atav/shared",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "alextavella",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "npm run build:types && npm run build:js",
+    "build:types": "tsc",
+    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\"",
+    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"ts-node src/app.ts\"",
+    "test": "jest --passWithNoTests",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "format": "prettier --write \"src/**/*.ts\""
+  }
+}

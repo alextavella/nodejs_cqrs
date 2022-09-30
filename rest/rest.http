@@ -1,0 +1,22 @@
+# RESTfull
+
+###
+GET http://localhost:3334/users
+
+###
+POST http://localhost:3334/users
+Content-Type: application/json
+
+{
+  "name": "Alex",
+  "email": "alex.tavella@atav.com.br"
+}
+
+###
+PATCH http://localhost:3334/users
+Content-Type: application/json
+
+{
+  "name": "Alex Tavella",
+  "email": "alex.tavella@atav.com.br"
+}
