@@ -16,7 +16,8 @@
     "dev:client": "lerna run dev --scope=@atav/client",
     "start": "lerna run start",
     "start:main": "lerna run start --scope=@atav/main",
-    "format": "lerna run format"
+    "format": "lerna run format",
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "axios": "^0.27.2",
